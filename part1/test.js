@@ -55,3 +55,37 @@ arr2.sort()
 console.log(arr2)
 
 console.log(arr2)
+
+
+
+let obj = {
+  name: "Shagan",
+  age: 23,
+  degree: "BSE"
+}
+
+console.log(obj)
+console.log(obj.name)
+console.log(obj.age)
+obj.district = "Batticaloa"
+console.log(obj)
+
+// functions
+
+const sum = (p1,p2) => {
+  console.log(p1)
+  console.log(p2)
+  return p1 + p2
+}
+
+console.log(sum(5,10))
+
+const ai = {
+  name: "bard",
+  year: 2023,
+  greet: function(){
+    console.log("Hello I am " + this.name + " I was introduced in " + this.year)
+  }
+} 
+console.log(ai)
+console.log(ai.greet())
