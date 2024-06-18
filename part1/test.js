@@ -19,3 +19,39 @@ console.log(arr1)
 console.log(arr)
 
 
+let arr2 = arr1.map(value => value*2) // copy array and modify and save
+console.log(arr2)
+
+
+arr2.pop()
+console.log(arr2)
+
+
+arr2.unshift(0)
+console.log(arr2)
+
+arr2.shift()
+console.log(arr2)
+
+let arr3 = arr2.filter(value=> value % 5 === 0)
+console.log(arr3)
+
+let found = arr2.find(x => x > 7)
+console.log(found)
+
+let found1 = arr2.findIndex(x => x > 7)
+console.log(found1)
+
+arr2.reverse()
+console.log(arr2)
+
+newArr = [2,1,4,3]
+newArr.sort()
+console.log(newArr)
+
+arr2.sort()
+console.log(arr2)
+arr2.sort()
+console.log(arr2)
+
+console.log(arr2)
